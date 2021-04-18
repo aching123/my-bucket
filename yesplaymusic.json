@@ -4,7 +4,9 @@
     "homepage": "https://github.com/qier222/YesPlayMusic",
     "url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.3.5/YesPlayMusic-0.3.5.exe",
     "hash": "839fdc54cce3d310ae8646b79b007a0b040893e4c3b0683be64374838bc93e50",
-    "innosetup": true,
+    "installer": {
+        "args": "\"$dir\""
+    },
     "bin": "YesPlayMusic.exe",
     "shortcuts": [
         [
